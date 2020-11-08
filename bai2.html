@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Hi anh em. Bấm vào vùng bất kì </p>
+
+
+
+<script>
+window.onclick = myFunction;
+
+function myFunction() {
+    var txt;
+    var person = prompt("Please enter your color:", );
+  if (person == null || person == "") {
+    txt = "User cancelled the prompt.";
+  } 
+  document.getElementsByTagName("BODY")[0].style.backgroundColor = person;
+}
+</script>
+
+</body>
+</html>
